@@ -1,17 +1,20 @@
 import { h, Component, Fragment } from 'preact';
 import render from 'preact-render-to-string';
+/* @ts-ignore */
 import { init, exec } from 'pell';
-import BoldSVG from '../icons/bold';
-import UnderlineSVG from '../icons/underline';
-import ItalicSVG from '../icons/italic';
-import StrikethroughSVG from '../icons/strikethrough';
-import QuoteSVG from '../icons/quote';
-import NumberedListSVG from '../icons/numberedList';
-import BulletedListSVG from '../icons/bulletedList';
-import CodeSVG from '../icons/code';
-import SeparatorSVG from '../icons/separator';
-import ImageSVG from '../icons/image';
-import LinkSVG from '../icons/link';
+import {
+  BoldSVG,
+  UnderlineSVG,
+  ItalicSVG,
+  StrikethroughSVG,
+  QuoteSVG,
+  NumberedListSVG,
+  BulletedListSVG,
+  CodeSVG,
+  SeparatorSVG,
+  ImageSVG,
+  LinkSVG,
+} from '../icons';
 
 class Editor extends Component {
   editor = null;
@@ -23,7 +26,7 @@ class Editor extends Component {
   componentDidMount() {
     this.editor = init({
       element: document.getElementById('LunaEditor'),
-      onChange: (html) => this.setState({ html }),
+      onChange: (html: any) => this.setState({ html }),
       classes: {
         actionbar: 'pell-actionbar',
         button: 'pell-button',
