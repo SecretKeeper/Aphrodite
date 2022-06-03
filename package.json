@@ -8,7 +8,9 @@
     "prettier": "prettier --write '**/*.{js,jsx,css,html}'"
   },
   "dependencies": {
-    "preact": "^10.7.3"
+    "pell": "^1.0.6",
+    "preact": "^10.7.3",
+    "preact-render-to-string": "^5.2.0"
   },
   "devDependencies": {
     "@prefresh/vite": "^2.2.8",
