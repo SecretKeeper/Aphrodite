@@ -13,9 +13,9 @@ const CodeSVG: FunctionComponent<Props> = ({ width, height }): JSX.Element => {
       width={width}
       height={height}
       viewBox="0 0 25 25"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <polyline fill="none" stroke="currentColor" points="16 18 22 12 16 6"></polyline>
       <polyline fill="none" stroke="currentColor" points="8 6 2 12 8 18"></polyline>
