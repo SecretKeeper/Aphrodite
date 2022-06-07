@@ -1,5 +1,6 @@
 import { h, Component, Fragment } from 'preact';
 import render from 'preact-render-to-string';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 /* @ts-ignore */
 import { init, exec } from 'pell';
 import {
@@ -96,7 +97,7 @@ class Editor extends Component {
         <div className={'submit-wrapper'}>
           <div className={'bg-white border border-b-transparent border-hex-{ebebeb} p-0'} id="LunaEditor" />
           <div className={'flex items-center bg-white border border-t-transparent border-hex-{ebebeb} px-8 py-6'}>
-            <label className="flex items-center text-sm" for="anonymously">
+            <label className="flex items-center text-sm" htmlFor="anonymously">
               <input className="mr-2  " id="anonymously" type="checkbox" />
               <span className="select-none">Send Anonymously</span>
             </label>
