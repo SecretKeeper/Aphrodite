@@ -8,6 +8,8 @@
     "prettier": "prettier --write '**/*.{js,jsx,css,html}'"
   },
   "dependencies": {
+    "@nanostores/preact": "^0.1.3",
+    "nanostores": "^0.5.12",
     "pell": "^1.0.6",
     "preact": "^10.7.3",
     "preact-render-to-string": "^5.2.0",
