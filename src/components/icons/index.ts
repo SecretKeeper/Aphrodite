@@ -1,14 +1,19 @@
-import BoldSVG from '../icons/bold';
-import UnderlineSVG from '../icons/underline';
-import ItalicSVG from '../icons/italic';
-import StrikethroughSVG from '../icons/strikethrough';
-import QuoteSVG from '../icons/quote';
-import NumberedListSVG from '../icons/numberedList';
-import BulletedListSVG from '../icons/bulletedList';
-import CodeSVG from '../icons/code';
-import SeparatorSVG from '../icons/separator';
-import ImageSVG from '../icons/image';
-import LinkSVG from '../icons/link';
+import BoldSVG from './bold';
+import UnderlineSVG from './underline';
+import ItalicSVG from './italic';
+import StrikethroughSVG from './strikethrough';
+import QuoteSVG from './quote';
+import NumberedListSVG from './numberedList';
+import BulletedListSVG from './bulletedList';
+import CodeSVG from './code';
+import SeparatorSVG from './separator';
+import ImageSVG from './image';
+import LinkSVG from './link';
+import BeerSVG from './beer';
+import WineSVG from './wine';
+import TargetSVG from './target';
+import MedalSVG from './medal';
+import CrownSVG from './crown';
 
 export {
   BoldSVG,
@@ -22,4 +27,9 @@ export {
   SeparatorSVG,
   ImageSVG,
   LinkSVG,
+  BeerSVG,
+  WineSVG,
+  TargetSVG,
+  MedalSVG,
+  CrownSVG,
 };
