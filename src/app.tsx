@@ -1,16 +1,12 @@
 import { h, Fragment } from 'preact';
-import { Logo } from './logo';
+import Editor from './components/editor/editor';
+import Comments from './containers/comments';
 
 export function App() {
   return (
     <>
-      <Logo />
-      <p className="text-red-500">Hello Vite + Preact!</p>
-      <p>
-        <a class="link" href="https://preactjs.com/" target="_blank" rel="noopener noreferrer">
-          Learn Preact
-        </a>
-      </p>
+      <Editor />
+      <Comments />
     </>
   );
 }
