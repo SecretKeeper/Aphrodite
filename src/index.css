@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   height: 100%;
@@ -64,3 +68,54 @@ body {
       .pell-button-selected svg {
           color: red
       }
+
+.dark--popover--wrapper {
+    justify-content: space-around;
+    position: absolute;
+    top: 45px;
+    left: -138px;
+    width: 275px;
+    padding: 10px 5px;
+    background-color: #272727;
+    border-radius: 2px;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    cursor: auto !important;
+    transition: 0.25s all;
+    transform: translate3d(0, 15px, 0);
+    z-index: 1;
+}
+.dark--popover--wrapper::after {
+  position: absolute;
+        top: -10px;
+        left: 138px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #272727;
+}
+.dark--more-actions-popover--wrapper {
+  top: 35px;
+  left: -110px;
+  width: 155px;
+  padding: 10px;
+}
+.dark--more-actions-popover--wrapper::after {
+  position: absolute;
+        top: -8px;
+        left: 115px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #272727;
+}
+.show-popover {
+        visibility: visible;
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+}
