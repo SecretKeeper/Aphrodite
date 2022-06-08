@@ -14,6 +14,10 @@ import WineSVG from './wine';
 import TargetSVG from './target';
 import MedalSVG from './medal';
 import CrownSVG from './crown';
+import StarSVG from './star';
+import TrashSVG from './trash';
+import UserXSVG from './userX';
+import FlagSVG from './flag';
 
 export {
   BoldSVG,
@@ -32,4 +36,8 @@ export {
   TargetSVG,
   MedalSVG,
   CrownSVG,
+  StarSVG,
+  TrashSVG,
+  UserXSVG,
+  FlagSVG,
 };
