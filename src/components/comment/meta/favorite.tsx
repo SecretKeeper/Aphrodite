@@ -1,7 +1,7 @@
 import { FunctionComponent, h } from 'preact';
 
 const FavoriteBadge: FunctionComponent = (): JSX.Element => (
-  <span className="align-middle pl-8px">
+  <span className="align-middle pl-2">
     <svg
       className="transition-all duration-150"
       fill="#ebc300"
