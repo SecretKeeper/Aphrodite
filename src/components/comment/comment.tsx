@@ -2,6 +2,7 @@ import { h, FunctionComponent, createContext } from 'preact';
 import { StateUpdater, useState } from 'preact/hooks';
 import Actions from './actions/actions';
 import Meta from './meta/meta';
+import ReplyForm from './replyForm';
 import { Trophy } from './trophies';
 
 export const CommentContext = createContext<CommentType & CommentActions>({
@@ -40,7 +41,7 @@ const Comment: FunctionComponent<CommentType> = (props): JSX.Element => {
       <Meta {...props} />
       <p className="text-left text-sm italic leading-5 m-0 pt-5">{props.content}</p>
       <Actions />
-      {/* {showReplyForm && <ReplyForm commentID={props.id} />} */}
+      {showReplyForm && <ReplyForm commentId={props.id} />}
     </CommentContext.Provider>
   );
 };
