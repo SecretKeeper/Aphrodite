@@ -23,9 +23,9 @@ const Trophies: FunctionComponent<Props> = (props): JSX.Element => {
     <div className="flex ml-auto">
       {props.trophies.map((trophy: Trophy, index: number) => {
         return (
-          <span className="relative mr-15px" key={index}>
+          <span className="relative mr-4" key={index}>
             {trophiesDic[trophy.type]}
-            <span className="absolute flex justify-center items-center bottom-18px left-18px w-15px h-15px font-semibold text-center text-xs leading-3 bg-hex-323232 text-white rounded-full">
+            <span className="absolute flex justify-center items-center bottom-7 left-4 w-4 h-4 font-semibold text-center text-xs leading-3 bg-[#323232] text-white rounded-full">
               {trophy.count}
             </span>
           </span>

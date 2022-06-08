@@ -38,7 +38,7 @@ const Comment: FunctionComponent<CommentType> = (props): JSX.Element => {
   return (
     <CommentContext.Provider value={{ ...props, showReplyForm, toggleReplyForm }}>
       <Meta {...props} />
-      <p className="text-left text-sm italic leading-5 m-0 pt-20px">{props.content}</p>
+      <p className="text-left text-sm italic leading-5 m-0 pt-5">{props.content}</p>
       <Actions />
       {/* {showReplyForm && <ReplyForm commentID={props.id} />} */}
     </CommentContext.Provider>
