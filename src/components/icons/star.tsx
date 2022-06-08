@@ -12,7 +12,7 @@ const StarSVG: FunctionComponent<Props> = ({ width, height }): JSX.Element => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={width}
       height={height}
-      fill="none"
+      fill="currentColor"
       stroke="#ebc300"
       strokeWidth="2"
       strokeLinecap="round"
