@@ -1,0 +1,1 @@
+![Aphrodite Cover](https://github.com/SecretKeeper/Aphrodite/raw/main/public/Aphrodite.png)
